@@ -1,1 +1,7 @@
 //variables//
+
+
+//function//
+
+
+//local storage//
