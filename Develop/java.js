@@ -2,10 +2,10 @@
 var now = moment();
 var dateFormat = "MM/DD/YYYY";
 var convertedDate = moment(now, dateFormat);
-    console.log(convertedDate.format("MM/DD/YY hh:mm"));
-    console.log(convertedDate.format("MM - Do - YY"));
+    //console.log(convertedDate.format("MM/DD/YY hh:mm"));
+    //console.log(convertedDate.format("MM - Do - YY"));
 var newDate = moment();
-    console.log(newDate.diff(convertedDate, "days"));
+    //console.log(newDate.diff(convertedDate, "days"));
 
 
 //function to display date//
@@ -19,5 +19,6 @@ displayCurrentDate();
 
 
 //local storage//
-$(".saveBtn").addEventListener("click", )
-localStorage.setItem("lastname", "Smith");
+$(".saveBtn").on("click", function() {
+  
+});
