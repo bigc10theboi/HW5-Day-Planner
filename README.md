@@ -27,4 +27,4 @@ Author: Carter Venne
 
 Github repository: https://github.com/bigc10theboi/HW5-Day-Planner
 
-Deployed website: 
+Deployed website: https://bigc10theboi.github.io/HW5-Day-Planner/
