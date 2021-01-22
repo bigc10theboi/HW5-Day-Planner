@@ -7,8 +7,6 @@ var convertedDate = moment(now, dateFormat);
 var newDate = moment();
     console.log(newDate.diff(convertedDate, "days"));
 
-//function for color coding//
-
 
 //function to display date//
 function displayCurrentDate() {
@@ -17,10 +15,9 @@ function displayCurrentDate() {
 }
 displayCurrentDate();
 
+//function for color coding//
+
+
 //local storage//
-$(".saveBtn").on("click", function() {
-    var entry = $(this).siblings(".To-do").val()
-    var time = $(this).siblings().attr("data-time")
-  localStorage.setItem(time, entry);
-  localStorage.getItem(".To-do", "data-time");
-});
+$(".saveBtn").addEventListener("click", )
+localStorage.setItem("lastname", "Smith");
