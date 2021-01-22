@@ -21,7 +21,9 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
-
+## My Experience
+Utilizing moment.js along with Jquery/Javascript to set a reactive date and time this app should display the date and color code the current, future, and past time slots. My previous experience in bootstrap helped me set the layout of the HTML page.
+Unfortunately I could never get my local storage to work. I experienced major difficulties before realizing my originally gifted jquery, and moment links were not working.
 
 Author: Carter Venne
 

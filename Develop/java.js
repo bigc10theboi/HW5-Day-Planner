@@ -39,7 +39,6 @@ $(".saveBtn").on("click", function() {
   var time = $(this).parent().attr("id");
   var schedule = $(this).siblings(".To-do").val().trim();
 
-  localStorage.getItem(time, schedule);
   localStorage.setItem(time, schedule);
   console.log(time, schedule);
 });
