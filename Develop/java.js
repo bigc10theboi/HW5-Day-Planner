@@ -25,7 +25,24 @@ function displayCurrentDate() {
 displayCurrentDate();
 
 //function for color coding//
+function colors() {
+  hour = now.hours(); 
+  $(".time-block").each(function () {
+      var thisHour = parseInt($(this).attr("id"));
 
+      if (thisHour > hour) {
+          $(this).addClass("future")
+      }
+      else if (thisHour === hour) {
+          $(this).addClass("present");
+      }
+      else {
+          $(this).addClass("past");
+      }
+  })
+}
+
+colors();
 
 //local storage//
 $(".saveBtn").on("click", function() {
