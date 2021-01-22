@@ -6,16 +6,6 @@ var convertedDate = moment(now, dateFormat);
     //console.log(convertedDate.format("MM - Do - YY"));
 var newDate = moment();
     //console.log(newDate.diff(convertedDate, "days"));
-var hour9Am = $("#9");
-var hour10Am = $("#10");
-var hour11Am = $("#11");
-var hour12Pm = $("#12");
-var hour1Pm = $("#13");
-var hour2Pm = $("#14");
-var hour3Pm = $("#15");
-var hour4Pm = $("#16");
-var hour5Pm = $("#17");
-
 
 //function to display date//
 function displayCurrentDate() {
