@@ -27,6 +27,6 @@ Unfortunately I could never get my local storage to work. I experienced major di
 
 Author: Carter Venne
 
-Github repository: https://github.com/bigc10theboi/HW5-Day-Planner
+Github repository: https://github.com/cartervenne/HW5-Day-Planner
 
-Deployed website: https://bigc10theboi.github.io/HW5-Day-Planner/
+Deployed website: https://cartervenne.github.io/HW5-Day-Planner/
